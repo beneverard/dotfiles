@@ -42,7 +42,8 @@ brew install wget --with-iri
 brew install grep
 brew install openssh
 brew install screen
-brew install php
+brew install php@7.1
+brew install mysql@5.7
 brew install gmp
 
 # Install other useful binaries.
@@ -56,3 +57,6 @@ brew install tree
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# mysql setup
+mysqld --initialize-insecure --user=mysql
