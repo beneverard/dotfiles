@@ -126,6 +126,10 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 #sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
 #sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
 
+# Prevent apps from re-opening on reboot
+# See: https://superuser.com/questions/338004/prevent-mac-from-reloading-apps-after-restart/990775#990775
+defaults write -g ApplePersistence -bool false
+
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
