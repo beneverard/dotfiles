@@ -54,6 +54,7 @@ brew install git-lfs
 brew install imagemagick --with-webp
 brew install ssh-copy-id
 brew install tree
+brew install htop
 
 # Remove outdated versions from the cellar.
 brew cleanup
