@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# ssh shorthand function
+function bssh() {
+	echo "ssh -p 1022 $1@linode1"
+	ssh -p 1022 $1@linode1
+}
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
