@@ -6,6 +6,15 @@ function bssh() {
 	ssh -p 1022 $1@linode1
 }
 
+# change to and list the project directory
+function list_projects() {
+	clear
+	cd ~/Projects
+	echo "PROJECT FOLDERS"
+	ls -lL | awk '{print $9}'
+	echo
+}
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
