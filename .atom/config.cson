@@ -1,0 +1,27 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    atomicSoftTabs: false
+    fontSize: 17
+    scrollPastEnd: true
+    softTabs: false
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "7c67014a-1abc-49c6-950c-e66adf9057d2"
+  "linter-ui-default":
+    panelHeight: 81
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "svg-preview":
+    openPreviewInPane: "down"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
