@@ -9,6 +9,7 @@ apm install goto-definition
 apm install intentions
 apm install language-vue
 apm install less-than-slash
+apm install linter
 apm install linter-ui-default
 apm install minimap
 apm install minimap-git-diff
