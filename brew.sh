@@ -56,6 +56,54 @@ brew install ssh-copy-id
 brew install tree
 brew install htop
 
+# Install applications
+brew cask install 1password
+brew cask install alfred
+brew cask install appcleaner
+brew cask install atom
+brew cask install basecamp
+brew cask install cloudapp
+brew cask install fantastical
+brew cask install figma
+brew cask install firefox
+brew cask install focus
+brew cask install google-chrome-beta
+brew cask install google-drive-file-stream
+brew cask install grammarly
+brew cask install imageoptime
+brew cask install insomina
+brew cask install integrity
+brew cask install iterm2
+brew cask install mailspring
+brew cask install memory-tracker-by-timely
+brew cask install notion
+brew cask install pocket-casts
+brew cask install rocket
+brew cask install sequel-pro
+brew cask install sketch
+brew cask install sketchup
+brew cask install slack
+brew cask install snappy
+brew cask install spotify
+brew cask install steam
+brew cask install timely
+brew cask install tower
+brew cask install transmit
+brew cask install tripmode
+brew cask install whatsapp
+brew cask install zoom
+
+# The following apps are not available as casks:
+# bear
+# countdowns
+# littleipsum
+# papperazi
+# pocket
+# screenbrush
+# sitesucker
+# things
+# trello
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
