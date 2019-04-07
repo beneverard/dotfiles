@@ -67,6 +67,7 @@ brew cask install fantastical
 brew cask install figma
 brew cask install firefox
 brew cask install focus
+brew cask install gas-mask
 brew cask install google-chrome-beta
 brew cask install google-drive-file-stream
 brew cask install grammarly
