@@ -72,6 +72,7 @@ brew cask install gas-mask
 brew cask install google-chrome-beta
 brew cask install google-drive-file-stream
 brew cask install grammarly
+brew cask install hyperdock
 brew cask install imageoptime
 brew cask install insomina
 brew cask install integrity
