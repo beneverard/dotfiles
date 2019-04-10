@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 apm install atom-material-ui
-aom install atom-twig
+apm install atom-twig
 apm install bracket-colorizer
 apm install busy-signal
 apm install docblockr
