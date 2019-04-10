@@ -5,7 +5,7 @@ cd "$(dirname "${BASH_SOURCE}")";
 git pull origin master;
 
 function doIt() {
-	rsync -avh --no-perms ./dots ~;
+	rsync -avh --no-perms ./dots/.[^.]* ~;
 	source ~/.bash_profile;
 }
 
