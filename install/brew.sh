@@ -47,6 +47,10 @@ brew install php@7.1
 brew install mysql@5.7
 brew install gmp
 
+# Link PHP and MySQL
+brew link --force php@7.1
+brew link --force mysql@5.7
+
 # Install other useful binaries.
 brew install ack
 #brew install exiv2
