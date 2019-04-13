@@ -97,7 +97,6 @@ brew cask install spotify
 brew cask install steam
 brew cask install timely
 brew cask install tower
-brew cask install transmit
 brew cask install tripmode
 brew cask install whatsapp
 brew cask install zoomus
