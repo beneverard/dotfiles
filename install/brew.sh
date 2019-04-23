@@ -62,6 +62,8 @@ brew install ssh-copy-id
 brew install tree
 brew install htop
 brew install yarn
+brew install watch
+brew install wp-cli
 
 # Install latest app versions
 brew cask install 1password
