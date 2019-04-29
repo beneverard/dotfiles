@@ -3,6 +3,9 @@
 # Server restart
 alias server_restart="brew services restart mysql@5.7 && valet restart"
 
+# Copy pwd
+alias pwdc="pwd | pbcopy"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
