@@ -15,6 +15,8 @@ apm install linter
 apm install linter-ui-default
 apm install minimap
 apm install minimap-git-diff
+apm install minimap-split-diff
 apm install pigments
+apm install split-diff
 apm install svg-preview
 apm install tabs-to-spaces
