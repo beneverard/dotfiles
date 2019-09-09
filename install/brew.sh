@@ -82,7 +82,7 @@ brew cask install google-chrome
 brew cask install google-drive-file-stream
 brew cask install grammarly
 brew cask install hyperdock
-brew cask install imageoptime
+brew cask install imageoptim
 brew cask install insomnia
 brew cask install integrity
 brew cask install iterm2
