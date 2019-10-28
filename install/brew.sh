@@ -67,6 +67,7 @@ brew install yarn
 brew install watch
 brew install wp-cli
 
+<<<<<<< HEAD
 # sound a bell to alert of the prompt
 tput bel
 
@@ -128,6 +129,60 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	# trello
 
 fi;
+=======
+# Install latest app versions
+brew cask install 1password
+brew cask install alfred
+brew cask install appcleaner
+brew cask install atom
+brew cask install basecamp
+brew cask install cloudapp
+brew cask install coconutbattery
+brew cask install fantastical
+brew cask install figma
+brew cask install firefox
+brew cask install focus
+brew cask install gas-mask
+brew cask install google-chrome
+brew cask install google-drive-file-stream
+brew cask install grammarly
+brew cask install hyperdock
+brew cask install imageoptim
+brew cask install insomnia
+brew cask install integrity
+brew cask install iterm2
+brew cask install mailspring
+brew cask install memory-tracker-by-timely
+brew cask install notion
+brew cask install pocket-casts
+brew cask install rocket
+brew cask install sequel-pro
+brew cask install sketch
+brew cask install sketchup
+brew cask install slack
+brew cask install spotify
+brew cask install steam
+brew cask install timely
+brew cask install tower
+brew cask install tripmode
+brew cask install whatsapp
+brew cask install zoomus
+
+# Install specific app versions
+# Transmit 4.4.13
+brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/7019074dcb817227d41985b9e0768f11f8ce713a/Casks/transmit.rb
+
+# The following apps are not available as casks:
+# bear
+# countdowns
+# littleipsum
+# papperazi
+# pocket
+# screenbrush
+# sitesucker
+# things
+# trello
+>>>>>>> 8a02fc092115b78508e425a8cb787b7f02d99bc8
 
 # Remove outdated versions from the cellar.
 brew cleanup
