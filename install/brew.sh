@@ -43,7 +43,6 @@ brew install wget --with-iri
 brew install grep
 brew install openssh
 brew install screen
-brew install php@7.0
 brew install php@7.1
 brew install php@7.2
 brew install mysql@5.7

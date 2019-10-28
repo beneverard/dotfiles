@@ -152,6 +152,5 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Switch PHP versions
-alias php70="phpv php@7.0"
 alias php71="phpv php@7.1"
-alias php72="phpv php"
+alias php72="phpv php@7.2"
