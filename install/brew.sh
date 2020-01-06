@@ -90,6 +90,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew cask install google-chrome
 	brew cask install google-drive-file-stream
 	brew cask install grammarly
+	brew cask install harvest
 	brew cask install hyperdock
 	brew cask install imageoptim
 	brew cask install insomnia
