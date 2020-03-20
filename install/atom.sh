@@ -5,6 +5,7 @@ apm install atom-twig
 apm install bracket-colorizer
 apm install busy-signal
 apm install docblockr
+apm install editorconfig
 apm install file-icons
 apm install goto-definition
 apm install intentions
