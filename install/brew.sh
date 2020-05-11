@@ -52,6 +52,9 @@ brew install gmp
 brew link --force php@7.1
 brew link --force mysql@5.7
 
+# App development
+brew install cocoapods
+
 # Install other useful binaries.
 brew install ack
 brew install composer
@@ -77,6 +80,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	# Install latest app versions
 	brew cask install 1password
 	brew cask install alfred
+	brew cask install android-studio
 	brew cask install appcleaner
 	brew cask install atom
 	brew cask install basecamp
