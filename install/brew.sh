@@ -80,10 +80,10 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	# Install latest app versions
 	brew cask install 1password
 	brew cask install alfred
+	brew cask install android-sdk
 	brew cask install android-studio
 	brew cask install appcleaner
 	brew cask install atom
-	brew cask install basecamp
 	brew cask install cloudapp
 	brew cask install coconutbattery
 	brew cask install fantastical
@@ -100,20 +100,15 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew cask install insomnia
 	brew cask install integrity
 	brew cask install iterm2
-	brew cask install mailspring
-	brew cask install memory-tracker-by-timely
 	brew cask install notion
 	brew cask install pocket-casts
-	brew cask install rocket
 	brew cask install sequel-pro
 	brew cask install sketch
 	brew cask install sketchup
 	brew cask install slack
 	brew cask install spotify
 	brew cask install steam
-	brew cask install timely
 	brew cask install tower
-	brew cask install tripmode
 	brew cask install whatsapp
 	brew cask install zoomus
 
