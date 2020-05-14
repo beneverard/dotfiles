@@ -18,6 +18,7 @@ apm install minimap
 apm install minimap-git-diff
 apm install minimap-split-diff
 apm install pigments
+apm install sort-lines
 apm install split-diff
 apm install svg-preview
 apm install tabs-to-spaces
