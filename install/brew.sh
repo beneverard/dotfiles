@@ -63,9 +63,10 @@ brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install lynx
-brew install ssh-copy-id
-brew install tree
 brew install htop
+brew install ssh-copy-id
+brew install svgo
+brew install tree
 brew install yarn
 brew install watch
 brew install wp-cli
