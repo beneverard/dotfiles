@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -44,6 +44,7 @@ brew install grep
 brew install openssh
 brew install screen
 brew install php@7.3
+brew install php@7.8
 brew install php@8.1
 brew install mysql@5.7
 brew install gmp
