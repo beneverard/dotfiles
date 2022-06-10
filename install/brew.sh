@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+read -p "Do you want to install brew? (y/n) " -n 1;
+echo "";
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+
+	# Install command-line tools using Homebrew.
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+fi;
 
 # Make sure we’re using the latest Homebrew.
 brew update
