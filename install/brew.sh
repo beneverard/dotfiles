@@ -65,7 +65,7 @@ brew install composer
 #brew install exiv2
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install lynx
 brew install htop
 brew install ssh-copy-id
