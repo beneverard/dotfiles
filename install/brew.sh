@@ -74,6 +74,7 @@ brew install tree
 brew install yarn
 brew install watch
 brew install wp-cli
+brew install mas
 
 # sound a bell to alert of the prompt
 tput bel
@@ -127,18 +128,24 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	# Specific taps
 	brew tap nicoverbruggen/homebrew-cask
 	brew install --cask phpmon
+fi;
 
-	# The following apps are not available as casks:
-	# bear
-	# countdowns
-	# littleipsum
-	# papperazi
-	# pocket
-	# screenbrush
-	# sitesucker
-	# things
-	# trello
+# sound a bell to alert of the prompt
+tput bel
 
+read -p "Do you wish to install apps from the Mac App Store? (y/n) " -n 1;
+echo "";
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+	mas install 506189836 # Harvest
+	mas install 1091189122 # Bear
+	mas install 1415311616 # Countdowns
+	mas install 1278508951 # Trello
+	mas install 1233965871 # ScreenBrush
+	mas install 568494494 # Pocket
+	mas install 442168834 # SiteSucker
+	mas install 1514915737 # Awesome Habits
+	mas install 1384080005 # Tweetbot
+	mas install 1176895641 # Spark
 fi;
 
 # Remove outdated versions from the cellar.
