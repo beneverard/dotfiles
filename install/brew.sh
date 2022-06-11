@@ -87,7 +87,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask alfred
 	brew install --cask android-sdk
 	brew install --cask android-studio
-	brew install --cask appcleaner\
+	brew install --cask appcleaner
 	brew install --cask coconutbattery
 	brew install --cask fantastical
 	brew install --cask figma
