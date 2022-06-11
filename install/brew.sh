@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# sound a bell to alert of the prompt
+tput bel
+
 read -p "Do you want to install brew? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
@@ -40,7 +43,7 @@ if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
 fi;
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 # brew install gnupg
@@ -56,7 +59,7 @@ brew install mysql@5.7
 brew install gmp
 
 # Link PHP and MySQL
-brew link --force php@7.1
+brew link --force php@8.1
 brew link --force mysql@5.7
 
 # App development
