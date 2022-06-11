@@ -1,16 +1,7 @@
 #!/usr/bin/env bash
 
-# sound a bell to alert of the prompt
-tput bel
-
-read -p "Do you want to install brew? (y/n) " -n 1;
-echo "";
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-
-	# Install command-line tools using Homebrew.
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-fi;
+# Install command-line tools using Homebrew.
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -52,14 +43,17 @@ brew install wget
 brew install grep
 brew install openssh
 brew install screen
-brew install php@7.3
-brew install php@7.8
-brew install php@8.1
-brew install mysql@5.7
 brew install gmp
 
-# Link PHP and MySQL
+# Install PHP
+brew tap shivammathur/php
+brew install shivammathur/php/php@7.3
+brew install shivammathur/php/php@7.4
+brew install php@8.1
 brew link --force php@8.1
+
+# Install MySQL
+brew install mysql@5.7
 brew link --force mysql@5.7
 
 # App development
