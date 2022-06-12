@@ -46,15 +46,28 @@ brew install screen
 brew install gmp
 
 # Install PHP
-brew tap shivammathur/php
-brew install shivammathur/php/php@7.3
-brew install shivammathur/php/php@7.4
-brew install php@8.1
-brew link --force php@8.1
+tput bel
+read -p "Install PHP? (y/n) " -n 1;
+echo "";
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+	brew tap shivammathur/php
+	brew install shivammathur/php/php@7.3
+	brew install shivammathur/php/php@7.4
+	brew install php@8.1
+	brew link --force php@8.1
+fi
 
 # Install MySQL
-brew install mysql@5.7
-brew link --force mysql@5.7
+tput bel
+read -p "Install MySQL? (y/n) " -n 1;
+echo "";
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+	brew install mysql
+	brew services start mysql
+
+	tput bel
+	mysql_secure_installation
+fi
 
 # App development
 brew install cocoapods
@@ -62,7 +75,6 @@ brew install cocoapods
 # Install other useful binaries.
 brew install ack
 brew install composer
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick
