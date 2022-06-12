@@ -150,7 +150,3 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
-
-# Switch PHP versions
-alias php71="phpv php@7.1"
-alias php72="phpv php@7.2"
