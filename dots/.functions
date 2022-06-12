@@ -174,14 +174,3 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
-
-# PHP Switching
-function phpv() {
-    valet stop
-    brew unlink php@7.1 php@7.2
-    brew link --force --overwrite $1
-    brew services start $1
-    composer global update
-	rm -f ~/.config/valet/valet.sock
-    valet install
-}
