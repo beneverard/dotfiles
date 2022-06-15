@@ -101,7 +101,10 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask android-sdk
 	brew install --cask android-studio
 	brew install --cask appcleaner
+	brew install --cask cleanshot
 	brew install --cask coconutbattery
+	brew install --cask daisydisk
+	brew install --cask dropbox
 	brew install --cask fantastical
 	brew install --cask figma
 	brew install --cask firefox
@@ -116,26 +119,23 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask integrity
 	brew install --cask iterm2
 	brew install --cask notion
+	brew install --cask openvpn-connect
 	brew install --cask pocket-casts
 	brew install --cask sequel-pro
 	brew install --cask sketch
 	brew install --cask slack
 	brew install --cask spotify
 	brew install --cask steam
+	brew install --cask tableplus
 	brew install --cask tower
 	brew install --cask transmit
-	brew install --cask visual-studio-code
-	brew install --cask whatsapp
-	brew install --cask zoom
-	brew install --cask cleanshot
-	brew install --cask daisydisk
-	brew install --cask dropbox
-	brew install --cask openvpn-connect
-	brew install --cask tableplus
 	brew install --cask tweetbot
 	brew install --cask ultimaker-cura
 	brew install --cask virtualbox
+	brew install --cask visual-studio-code
 	brew install --cask vlc
+	brew install --cask whatsapp
+	brew install --cask zoom
 
 	# Specific taps
 	brew tap nicoverbruggen/homebrew-cask
