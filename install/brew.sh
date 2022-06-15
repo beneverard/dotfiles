@@ -117,6 +117,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask iterm2
 	brew install --cask notion
 	brew install --cask pocket-casts
+	brew install --cask ray
 	brew install --cask sequel-pro
 	brew install --cask sketch
 	brew install --cask slack
