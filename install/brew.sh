@@ -162,6 +162,8 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	mas install 1384080005 # Tweetbot
 	mas install 1176895641 # Spark
 	mas install 953286746 # Darkroom
+	mas install 409203825 # Apple Numbers
+	mas install 409201541 # Apple Pages
 fi;
 
 # Remove outdated versions from the cellar.
