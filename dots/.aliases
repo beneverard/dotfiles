@@ -152,5 +152,6 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Add legacy PHP version aliases
+alias php72='/opt/homebrew/opt/php@7.2/bin/php'
 alias php73='/opt/homebrew/opt/php@7.3/bin/php'
 alias php74='/opt/homebrew/opt/php@7.4/bin/php'
