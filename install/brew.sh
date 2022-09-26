@@ -51,6 +51,7 @@ read -p "Install PHP? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew tap shivammathur/php
+	brew install shivammathur/php/php@7.2
 	brew install shivammathur/php/php@7.3
 	brew install shivammathur/php/php@7.4
 	brew install php@8.1
