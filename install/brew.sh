@@ -152,14 +152,9 @@ read -p "Do you wish to install apps from the Mac App Store? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	mas install 506189836 # Harvest
-	mas install 1091189122 # Bear
 	mas install 1415311616 # Countdowns
 	mas install 1278508951 # Trello
-	mas install 1233965871 # ScreenBrush
-	mas install 568494494 # Pocket
 	mas install 442168834 # SiteSucker
-	mas install 1514915737 # Awesome Habits
-	mas install 1384080005 # Tweetbot
 	mas install 1176895641 # Spark
 	mas install 953286746 # Darkroom
 	mas install 409203825 # Apple Numbers
