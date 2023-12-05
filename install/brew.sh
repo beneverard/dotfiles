@@ -55,7 +55,9 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install shivammathur/php/php@7.3
 	brew install shivammathur/php/php@7.4
 	brew install php@8.1
-	brew link --force php@8.1
+	brew install php@8.2
+	brew install php@8.3
+	brew link --force php@8.3
 fi
 
 # Install MySQL
