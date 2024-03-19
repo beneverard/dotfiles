@@ -84,7 +84,6 @@ brew install imagemagick
 brew install lynx
 brew install htop
 brew install ssh-copy-id
-brew install svgo
 brew install tree
 brew install yarn
 brew install watch
