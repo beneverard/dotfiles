@@ -114,7 +114,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask focus
 	brew install --cask gas-mask
 	brew install --cask google-chrome
-	brew install --cask grammarly
 	brew install --cask harvest
 	brew install --cask imageoptim
 	brew install --cask insomnia
