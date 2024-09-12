@@ -69,18 +69,21 @@ tput bel
 read -p "Do you wish to install brew casks? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-
 	# Install latest app versions
 	brew install --cask 1password
 	brew install --cask alfred
 	brew install --cask autodesk-fusion
+	brew install --cask backblaze
+	brew install --cask cleanmymac
 	brew install --cask cleanshot
 	brew install --cask dropbox
 	brew install --cask fantastical
 	brew install --cask figma
 	brew install --cask firefox
+	brew install --cask firefox@developer-edition
 	brew install --cask gas-mask
 	brew install --cask google-chrome
+	brew install --cask grammarly-desktop
 	brew install --cask harvest
 	brew install --cask imageoptim
 	brew install --cask insomnia
@@ -90,11 +93,15 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask notion
 	brew install --cask openvpn-connect
 	brew install --cask pocket-casts
+	brew install --cask polypane
 	brew install --cask ray
+	brew install --cask rectangle-pro
 	brew install --cask sequel-ace
 	brew install --cask slack
 	brew install --cask spotify
+	brew install --cask tor-browser
 	brew install --cask tower
+	brew install --cask transmission
 	brew install --cask transmit
 	brew install --cask ultimaker-cura
 	brew install --cask virtualbox
@@ -110,12 +117,16 @@ read -p "Do you wish to install apps from the Mac App Store? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	mas install 506189836 # Harvest
-	mas install 1415311616 # Countdowns
 	mas install 1278508951 # Trello
 	mas install 1176895641 # Spark
 	mas install 953286746 # Darkroom
 	mas install 409203825 # Apple Numbers
 	mas install 409201541 # Apple Pages
+	mas install 1569813296 # 1Password Safari
+	mas install 1594420480 # Prompt3
+	mas install 497799835 # Xcode
+	mas install 1186159417 # TP-Link Deco
+	mas install 1472718009 # TP-Link Tapo
 fi;
 
 # Remove outdated versions from the cellar.
