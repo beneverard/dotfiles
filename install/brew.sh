@@ -45,33 +45,6 @@ brew install openssh
 brew install screen
 brew install gmp
 
-# Install PHP
-tput bel
-read -p "Install PHP? (y/n) " -n 1;
-echo "";
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-	brew tap shivammathur/php
-	brew install shivammathur/php/php@7.2
-	brew install shivammathur/php/php@7.3
-	brew install shivammathur/php/php@7.4
-	brew install php@8.1
-	brew install php@8.2
-	brew install php@8.3
-	brew link --force php@8.3
-fi
-
-# Install MySQL
-tput bel
-read -p "Install MySQL? (y/n) " -n 1;
-echo "";
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-	brew install mysql
-	brew services start mysql
-
-	tput bel
-	mysql_secure_installation
-fi
-
 # App development
 brew install cocoapods
 
@@ -96,24 +69,21 @@ tput bel
 read -p "Do you wish to install brew casks? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-
 	# Install latest app versions
 	brew install --cask 1password
 	brew install --cask alfred
-	brew install --cask android-sdk
-	brew install --cask android-studio
-	brew install --cask appcleaner
 	brew install --cask autodesk-fusion
+	brew install --cask backblaze
+	brew install --cask cleanmymac
 	brew install --cask cleanshot
-	brew install --cask coconutbattery
-	brew install --cask daisydisk
 	brew install --cask dropbox
 	brew install --cask fantastical
 	brew install --cask figma
 	brew install --cask firefox
-	brew install --cask focus
+	brew install --cask firefox@developer-edition
 	brew install --cask gas-mask
 	brew install --cask google-chrome
+	brew install --cask grammarly-desktop
 	brew install --cask harvest
 	brew install --cask imageoptim
 	brew install --cask insomnia
@@ -123,26 +93,21 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask notion
 	brew install --cask openvpn-connect
 	brew install --cask pocket-casts
+	brew install --cask polypane
 	brew install --cask ray
+	brew install --cask rectangle-pro
 	brew install --cask sequel-ace
-	brew install --cask signal
 	brew install --cask slack
 	brew install --cask spotify
-	brew install --cask steam
-	brew install --cask tableplus
+	brew install --cask tor-browser
 	brew install --cask tower
+	brew install --cask transmission
 	brew install --cask transmit
-	brew install --cask tweetbot
 	brew install --cask ultimaker-cura
 	brew install --cask virtualbox
 	brew install --cask visual-studio-code
-	brew install --cask vlc
 	brew install --cask whatsapp
 	brew install --cask zoom
-
-	# Specific taps
-	brew tap nicoverbruggen/homebrew-cask
-	brew install --cask phpmon
 fi;
 
 # sound a bell to alert of the prompt
@@ -152,17 +117,17 @@ read -p "Do you wish to install apps from the Mac App Store? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	mas install 506189836 # Harvest
-	mas install 1415311616 # Countdowns
 	mas install 1278508951 # Trello
-	mas install 442168834 # SiteSucker
 	mas install 1176895641 # Spark
 	mas install 953286746 # Darkroom
 	mas install 409203825 # Apple Numbers
 	mas install 409201541 # Apple Pages
+	mas install 1569813296 # 1Password Safari
+	mas install 1594420480 # Prompt3
+	mas install 497799835 # Xcode
+	mas install 1186159417 # TP-Link Deco
+	mas install 1472718009 # TP-Link Tapo
 fi;
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
-# mysql setup
-mysqld --initialize-insecure --user=mysql
