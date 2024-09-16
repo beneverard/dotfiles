@@ -49,6 +49,7 @@ brew install gmp
 brew install cocoapods
 
 # Install other useful binaries.
+brew install 1password-cli
 brew install ack
 brew install composer
 brew install git
