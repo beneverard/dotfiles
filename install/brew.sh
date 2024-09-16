@@ -97,6 +97,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask pocket-casts
 	brew install --cask polypane
 	brew install --cask ray
+	brew install --cask raycast
 	brew install --cask rectangle-pro
 	brew install --cask sequel-ace
 	brew install --cask slack
