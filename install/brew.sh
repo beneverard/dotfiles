@@ -85,6 +85,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask google-chrome
 	brew install --cask grammarly-desktop
 	brew install --cask harvest
+	brew install --cask herd
 	brew install --cask imageoptim
 	brew install --cask insomnia
 	brew install --cask integrity
