@@ -122,6 +122,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	mas install 953286746 # Darkroom
 	mas install 409203825 # Apple Numbers
 	mas install 409201541 # Apple Pages
+ 	mas install 409183694 # Apple Keynote
 	mas install 1569813296 # 1Password Safari
 	mas install 1594420480 # Prompt3
 	mas install 497799835 # Xcode
