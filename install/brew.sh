@@ -56,6 +56,7 @@ brew install git-lfs
 brew install imagemagick
 brew install lynx
 brew install htop
+brew install php-code-sniffer
 brew install ssh-copy-id
 brew install tree
 brew install yarn
