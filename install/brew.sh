@@ -71,7 +71,6 @@ echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	# Install latest app versions
 	brew install --cask 1password
-	brew install --cask alfred
 	brew install --cask autodesk-fusion
 	brew install --cask backblaze
 	brew install --cask cleanmymac
