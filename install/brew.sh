@@ -85,7 +85,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask gas-mask
 	brew install --cask google-chrome
 	brew install --cask grammarly-desktop
-	brew install --cask harvest
 	brew install --cask herd
 	brew install --cask imageoptim
 	brew install --cask insomnia
@@ -118,8 +117,6 @@ tput bel
 read -p "Do you wish to install apps from the Mac App Store? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-	mas install 506189836 # Harvest
-	mas install 1278508951 # Trello
 	mas install 1176895641 # Spark
 	mas install 953286746 # Darkroom
 	mas install 409203825 # Apple Numbers
