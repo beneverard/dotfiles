@@ -96,6 +96,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask pocket-casts
 	brew install --cask polypane
 	brew install --cask raycast
+	brew install --cask readdle-spark
 	brew install --cask rectangle-pro
 	brew install --cask sequel-ace
 	brew install --cask slack
@@ -117,13 +118,11 @@ tput bel
 read -p "Do you wish to install apps from the Mac App Store? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-	mas install 1176895641 # Spark
 	mas install 953286746 # Darkroom
 	mas install 409203825 # Apple Numbers
 	mas install 409201541 # Apple Pages
  	mas install 409183694 # Apple Keynote
 	mas install 1569813296 # 1Password Safari
-	mas install 1594420480 # Prompt3
 	mas install 497799835 # Xcode
 	mas install 1186159417 # TP-Link Deco
 	mas install 1472718009 # TP-Link Tapo
