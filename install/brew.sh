@@ -79,6 +79,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask cleanshot
 	brew install --cask dropbox
 	brew install --cask fantastical
+	brew install --cask fastmail
 	brew install --cask figma
 	brew install --cask firefox
 	brew install --cask firefox@developer-edition
