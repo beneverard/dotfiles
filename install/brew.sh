@@ -106,6 +106,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	brew install --cask tower
 	brew install --cask transmission
 	brew install --cask transmit
+	brew install --cask typinator
 	brew install --cask ultimaker-cura
 	brew install --cask virtualbox
 	brew install --cask visual-studio-code
